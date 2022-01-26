@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'century Gothic';
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("website\ background.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    margin-top: 13px;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 250px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.btn{
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid  #fff;
+    text-decoration: none;
+}
+.btn:hover{
+    color: #000;
+    background-color:#fff ;
+    transition: 0.6s ease;
+}
+.content1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    padding: 10px 0px 10px;
+    font-family: cursive;
+    color: darkorange;
+}
+.contentimage {
+    width: 50%;
+    padding: 0px 10px 10px;
+}
+.contentimage1 {
+    width: 45%;
+    float: right;
+    padding: 10px;
+}
+.content2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    padding: 10px 0px 10px;
+    font-family: cursive;
+    color: darkorange;
+}
+
+.footer{
+    width: 100%;
+    font-size: 13px;
+    line-height: 20px;
+    bottom: 0;
+    color: #fff;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    padding: 100px 0px 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+h2{
+    padding-bottom: 20px;
+}
+.col h3{
+    padding-bottom: 20px;
+    width: fit-content;
+}
+.mailid{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+
